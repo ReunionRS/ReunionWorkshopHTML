@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+body{
+    background: rgb(3,14,14);
+    background: linear-gradient(290deg, rgba(3,14,14,1) 14%, rgba(16,39,39,1) 50%, rgba(0,0,0,1) 80%);
+    backdrop-filter: blur(45px);
+    color: white;
+    font-family: "Jura", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo-title{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 7vh;
+}
+
+.logo-title img{
+    width: 8vh;
+    height: 9vh;
+    margin-right: 1.3vh;
+}
+
+.logo-title h1{
+    font-size: 3.5vh;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 7vh;
+}
+
+a{
+    font-size: 2.9vh;
+    color: #c0c0c0;
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+    font-size: 2.9vh;
+    transition: 0.3s ease;
+}
+
+
+.nav-item{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.content{
+    display: flex;
+}
+
+.content img{
+    width: 32%;
+    margin-left: 5vh;
+}
+
+.text-content{
+    margin-top: 27vh;
+}
+
+.text-content h1{
+    font-weight: bold;
+    font-size: 10.5vh;
+    margin-left: 3vh;
+}
+
+.text-content p{
+    font-size: 40px;
+    text-align: center;
+    margin-left: 17vh;
+    margin-top: -6vh;
+    width: 700px;
+}
+
+.icon-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 10vh
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.button img {
+    width: 10vh;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapper h1{
+    font-size: 4.4vh;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: start;
+}
+
+.card {
+    width: 100px;
+    height: 700px;
+    border-radius: .75rem;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin: 0 10px;
+    display: flex;
+    align-items: flex-end;
+    transition: .6s cubic-bezier(.28,-0.03,0,.99);
+    box-shadow: 0px 10px 30px -5px rgba(0,0,0,0.8);
+}
+
+.card > .row {
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.card > .row > .icon {
+    background: #223;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.card > .row > .description {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 80px;
+    width: 520px;
+    opacity: 0;
+    transform: translateY(30px);
+    transition-delay: .3s;
+    transition: all .3s ease;
+}
+
+.description p {
+    color: #b0b0ba;
+    padding-top: 5px;
+}
+
+.description h4 {
+    text-transform: uppercase;
+}
+
+input {
+    display: none;
+}
+
+input:checked + label {
+    width: 1000px;
+    height: 700px;
+}
+
+input:checked + label .description {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.card[for="c1"] {
+    background-image: url('Sliders_png_1/1.png');
+}
+.card[for="c2"] {
+    background-image: url('Sliders_png_1/2.jpg');
+}
+.card[for="c3"] {
+    background-image: url('Sliders_png_1/1.png');
+}
+.card[for="c4"] {
+    background-image: url('Sliders_png_1/2.jpg');
+}
+
+
+.portfolio_content h1{
+    font-size: 4.4vh;
+    text-align: center;
+}
+
+.slider_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    position: relative;
+    width: 75%;
+    overflow: hidden;
+}
+
+.images-portfolio {
+    display: flex;
+    width: 100%;
+
+}
+.images-portfolio img{
+    width: 100%;
+    transition: 0.4s ease;
+}
+.images-portfolio input {
+    display: none;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.dots label {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+    background-color: white;
+}
+.dots label:hover {background: #00EA88;}
+#img1:checked ~ .m1 {
+    margin-left: 0;
+}
+#img2:checked ~ .m2 {
+    margin-left: -100%;
+}
+#img3:checked ~ .m3 {
+    margin-left: -200%;
+}
+#img4:checked ~ .m4 {
+    margin-left: -300%;
+}
+
+
+
