@@ -304,6 +304,10 @@ a:hover{
     background: rgba(255, 255, 255, 3%);;
 }
 
+.contact_us_form h1{
+    text-align: center;
+}
+
 .content_contacts{
     width: 100%;
     height: 100vh;
@@ -369,13 +373,35 @@ a:hover{
 #form_button{
     width: 500px;
     height: 50px;
-    margin-left: 4vh;
+    margin-left: 40vh;
     margin-top: 3vh;
     background-color: #FB3939;
     color: white;
     border: none;
     border-radius: 10px;
     text-align: center;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
 }
 
+#form_button:hover{
+    background-color: white;
+    color: #FB3939;
+    transition: 0.2s ease-in-out;
+}
+
+#text-form{
+    text-align: center;
+}
+
+.form-icon-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-icon-buttons img{
+    width: 6vh;
+}
 
