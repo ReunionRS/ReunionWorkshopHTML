@@ -64,6 +64,8 @@ a:hover{
 
 .content{
     display: flex;
+    width: 100%;
+    height: 100vh;
 }
 
 .content img{
@@ -93,7 +95,7 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-right: 10vh
+    margin-right: 10vh;
 }
 
 .button {
@@ -181,16 +183,16 @@ a:hover{
     text-transform: uppercase;
 }
 
-input {
+.container input {
     display: none;
 }
 
-input:checked + label {
+.container input:checked + label {
     width: 1000px;
     height: 700px;
 }
 
-input:checked + label .description {
+.container input:checked + label .description {
     opacity: 1 !important;
     transform: translateY(0) !important;
 }
@@ -285,5 +287,95 @@ input:checked + label .description {
     width: 50%;
 }
 
+.content_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+.content_form img{
+    width: 30%;
+}
+
+.contact_us_form {
+    width: 1210px;
+    height: 806px;
+    background: rgba(255, 255, 255, 3%);;
+}
+
+.content_contacts{
+    width: 100%;
+    height: 100vh;
+}
+
+.content_form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 10vh;
+}
+
+.content_form img{
+    width: 30%;
+}
+
+.contact_us_form {
+    display: flex;
+    flex-direction: column;
+    width: 1210px;
+    height: 806px;
+}
+
+.content_contacts{
+    width: 100%;
+    height: 100vh;
+}
+
+.contact_us_form input{
+    width: 100px;
+    height: 30px;
+    background: rgba(0, 0, 0, 40%);;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.inputs_form{
+    display: flex;
+    flex-direction: row;
+}
+
+.inputs_form input{
+    width: 540px;
+    height: 60px;
+    margin-left: 4vh;
+    margin-top: 3vh;
+}
+
+#message_input{
+    width: 1120px;
+    height: 300px;
+    margin-left: 4vh;
+    margin-top: 3vh;
+    background: rgba(0, 0, 0, 40%);;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    font-family: "Jura", sans-serif;
+    resize: none;
+}
+
+#form_button{
+    width: 500px;
+    height: 50px;
+    margin-left: 4vh;
+    margin-top: 3vh;
+    background-color: #FB3939;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
 
 
