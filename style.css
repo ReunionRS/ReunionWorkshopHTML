@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
 
 body{
+    width: 100%;
+    height: 100%;
     background: rgb(3,14,14);
     background: linear-gradient(290deg, rgba(3,14,14,1) 14%, rgba(16,39,39,1) 50%, rgba(0,0,0,1) 80%);
     backdrop-filter: blur(45px);
@@ -194,22 +196,26 @@ input:checked + label .description {
 }
 
 .card[for="c1"] {
-    background-image: url('Sliders_png_1/1.png');
+    background-image: url('Sliders_png_1/Services/Scenes.png');
 }
 .card[for="c2"] {
-    background-image: url('Sliders_png_1/2.jpg');
+    background-image: url('Sliders_png_1/Services/Helmets.jpg');
 }
 .card[for="c3"] {
-    background-image: url('Sliders_png_1/1.png');
+    background-image: url('Sliders_png_1/Services/hz.png');
 }
 .card[for="c4"] {
-    background-image: url('Sliders_png_1/2.jpg');
+    background-image: url('Sliders_png_1/Services/armor.png');
 }
 
 
 .portfolio_content h1{
     font-size: 4.4vh;
     text-align: center;
+}
+
+.portfolio_content{
+    margin-top: 7vh;
 }
 
 .slider_wrapper{
@@ -264,6 +270,19 @@ input:checked + label .description {
 }
 #img4:checked ~ .m4 {
     margin-left: -300%;
+}
+#img5:checked ~ .m5 {
+    margin-left: -400%;
+}
+
+.title-contacts{
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.title-contacts img{
+    width: 50%;
 }
 
 
