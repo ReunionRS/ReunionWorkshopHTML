@@ -62,6 +62,10 @@ a:hover{
     margin: 0 20px;
 }
 
+.nav-button{
+    display: none;
+}
+
 .content{
     display: flex;
     width: 100%;
