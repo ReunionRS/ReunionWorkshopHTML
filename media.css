@@ -93,10 +93,10 @@
 
 @media (max-width: 414px) {
     .logo-title h1{
-        font-size: 2.5vh; /* Уменьшаем размер заголовка */
+        font-size: 2.5vh;
     }
-    nav {
-        display: none; /* Скрываем меню */
+    .nav-list{
+        display: none;
     }
     .nav-button {
         display: block;
@@ -176,6 +176,42 @@
 
     .icon-buttons img{
         position: relative;
+    }
+
+    .toggle-menu{
+        display: inline-block;
+        position: relative;
+        background-color: rgba(255,255,255,0);
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        right: 30px;
+        top:10px;
+        z-index: 999;
+    }
+
+    .toggle-menu img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70px;
+        height: 70px;
+    }
+
+    .nav.open .nav-list{
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        background-color: #222233;
+        z-index: 1;
+        row-gap: 30px;
     }
 }
 
