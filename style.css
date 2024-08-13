@@ -405,25 +405,6 @@ a:hover{
     width: 6vh;
 }
 
-@media (max-width: 1600px) { /*Для ПК*/
-    nav{
-        display: none;
-    }
-}
-
-@media (max-width: 960px) { /*Для планшетов*/
-    nav{
-        display: none;
-    }
-}
-
-
-@media (max-width: 375px) { /*Для телефонов*/
-    nav{
-        display: none;
-    }
-}
-
 
 
 
