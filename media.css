@@ -146,7 +146,7 @@
 
     .content img{
         position: fixed;
-        width: 128%;
+        width: 127%;
         right: 10px;
     }
 
@@ -171,7 +171,7 @@
 
     .icon-buttons{
         position:relative;
-        top: 28vh;
+        top: 25vh;
     }
 
     .icon-buttons img{
