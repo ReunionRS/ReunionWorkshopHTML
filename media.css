@@ -68,7 +68,6 @@
         font-size: 25px;
         margin-left: 50px;
         line-height: 1px;
-        white-space: normal;
     }
 
     .text-content p{
@@ -85,7 +84,7 @@
 
     .icon-buttons img{
         position: relative;
-        width: 6.5vh;
+        width: 5px;
     }
 
     .toggle-menu{
