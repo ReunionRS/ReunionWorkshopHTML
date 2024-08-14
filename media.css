@@ -54,6 +54,7 @@
 
     .content img{
         position: fixed;
+        width: 120%;
         right: 10px;
     }
 
