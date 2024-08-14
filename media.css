@@ -213,20 +213,10 @@
         left: 0;
         bottom: -20px;
         background-color: rgba(0,0,0,0.9);
-        z-index: 999999;
+        z-index: 1;
         row-gap: 30px;
-        animation: showOverlay .1s ease;
-        -webkit-animation-fill-mode: initial;
-    }
-
-    @keyframes showWindow {
-        0% {
-            transform: translateX(100%);
-        }
-
-        100% {
-            transform: translateX(0%);
-        }
+        animation: showOverlay .3s ease;
+        -webkit-animation-fill-mode: forwards;
     }
 
     @keyframes showOverlay {
@@ -236,7 +226,6 @@
 
         100% {
             opacity: 1;
-            display: block;
         }
     }
 }
