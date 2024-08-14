@@ -79,12 +79,17 @@
 
     .icon-buttons{
         position:relative;
-        top: 25vh;
     }
 
     .icon-buttons img{
         position: relative;
-        width: 5px;
+        width: 40px;
+    }
+
+    .button{
+        position: relative;
+        left: 30px;
+        top: 60px;
     }
 
     .toggle-menu{
@@ -125,11 +130,6 @@
         row-gap: 30px;
         animation: showOverlay .3s ease;
         -webkit-animation-fill-mode: forwards;
-    }
-
-    .button{
-        position: relative;
-        left: 30px;
     }
 
     @keyframes showOverlay {
