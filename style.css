@@ -6,6 +6,7 @@ body{
     background: rgb(3,14,14);
     background: linear-gradient(290deg, rgba(3,14,14,1) 14%, rgba(16,39,39,1) 50%, rgba(0,0,0,1) 80%);
     backdrop-filter: blur(45px);
+    position: relative;
     color: white;
     font-family: "Jura", sans-serif;
     margin: 0;
