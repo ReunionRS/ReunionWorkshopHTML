@@ -56,6 +56,7 @@
         position: fixed;
         width: 120%;
         right: 10px;
+        bottom:8px;
         vertical-align: bottom;
         align:center;
     }
