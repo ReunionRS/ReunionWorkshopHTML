@@ -145,6 +145,45 @@
         }
     }
 
+    .wrapper{
+        display: none;
+    }
+
+    .slider-mobile{
+        display: block;
+        position: relative;
+        width: 100%;
+        overflow: hidden;
+        top:50px;
+    }
+
+    .slider-mobile h1{
+        text-align: center;
+    }
+
+    .services-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content_form img{
+        display: none;
+    }
+
+    .contact_us_form{
+        width: 350px;
+        height: 600px;
+    }
+
+    .inputs_form input{
+        width: 200px;
+        height: 60px;
+        margin-left: 4vh;
+        margin-top: 3vh;
+    }
+
 
 }
 

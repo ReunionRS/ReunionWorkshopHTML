@@ -231,6 +231,10 @@ a:hover{
     align-items: center;
 }
 
+.slider-mobile{
+    display: none;
+}
+
 .slider{
     position: relative;
     width: 75%;
