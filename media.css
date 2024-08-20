@@ -195,14 +195,14 @@
 
     #form_button{
         position: relative;
-        right: 295px;
+        right: 275px;
         width: 300px;
         height: 100px;
     }
 
     #form_button:hover{
         position: relative;
-        right: 295px;
+        right: 275px;
         width: 300px;
         height: 100px;
     }
